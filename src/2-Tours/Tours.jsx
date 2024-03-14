@@ -5,39 +5,55 @@ import Tour from './Tour'
 
 function Tours() {
   const [tours, setTours] = useState([])
+  const [loading, setLoading] = useState(true)
 
   useEffect(() => {
     setTimeout(() => {
+      setLoading(false)
       setTours(tours_data)
-    }, 2000)
+    }, 1000)
   }, [])
-  console.log(tours)
+  //console.log(tours)
+
+  function removeTour(name) {
+    const newTours = tours.filter((tour) => name !== tour.name)
+    setTours(newTours)
+  }
+
+  if (loading) {
+    return (
+      <main>
+        <Loading />
+      </main>
+    )
+  }
+
+  if (tours.length === 0) {
+    <main>
+      <div className="title">no tours left...</div>
+      <button className="btn btn-success">REFRESH</button>
+    </main>
+  }
 
   return (
-    <>
-      {tours.length <= 0 ? (
-        <Loading />
-      ) : (
-        <>
-          <h1>Our Tour</h1>
-          <div
-            style={{ width: '7rem' }}
-            className="border border-success-subtle border-2 mb-4"
-          ></div>
+    <main>
+      <h1>Our Tour</h1>
+      <div
+        style={{ width: '7rem' }}
+        className="border border-success-subtle border-2 mb-4"
+      ></div>
 
-          <div
-            className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4"
-            style={{ height: '80vh' }}
-          >
-            {tours.map((tour, idx) => (
-               <div className="col">
-              <Tour key={idx} {...tour} />
-              </div>
-            ))}
+      <div
+        className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4"
+        style={{ height: '80vh' }}
+      >
+        {tours.map((tour, idx) => (
+          <div className="col">
+            <Tour key={idx} {...tour} removeTour={removeTour} />
           </div>
-        </>
-      )}
-    </>
+        ))}
+      </div>
+    </main>
   )
 }
 
