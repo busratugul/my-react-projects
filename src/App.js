@@ -1,7 +1,8 @@
 import React from 'react'
 import './App.css'
-import Reviews from './projects/3-Review/Reviews'
-import BirthdayCard from './projects/1-BirthdayReminder/BirthdayCard'
+import Reviews from './3-Review/Reviews'
+import BirthdayCard from './1-BirthdayReminder/BirthdayCard'
+import Tours from './2-Tours/Tours'
 
 function App() {
   let App = {
@@ -15,7 +16,8 @@ function App() {
   return (
     <div style={App} className="container">
       {/*  <Reviews /> */}
-      <BirthdayCard />
+      {/* <BirthdayCard /> */}
+      <Tours/>
     </div>
   )
 }
