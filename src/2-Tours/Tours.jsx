@@ -29,10 +29,12 @@ function Tours() {
   }
 
   if (tours.length === 0) {
+    return (
     <main>
       <div className="title">no tours left...</div>
-      <button className="btn btn-success">REFRESH</button>
+      <button className="btn btn-success" onClick={() => setTours(tours_data)}>REFRESH</button>
     </main>
+    )
   }
 
   return (
