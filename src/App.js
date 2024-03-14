@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
 import Reviews from './projects/3-Review/Reviews'
-import Loading from './components/Loading'
+import BirthdayCard from './projects/1-BirthdayReminder/BirthdayCard'
 
 function App() {
   let App = {
@@ -14,7 +14,8 @@ function App() {
   }
   return (
     <div style={App} className="container">
-      <Reviews />
+      {/*  <Reviews /> */}
+      <BirthdayCard />
     </div>
   )
 }
