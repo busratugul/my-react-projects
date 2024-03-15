@@ -21,7 +21,10 @@ function Tour({ name, image, descriptions, price, removeTour }) {
       style={{ maxHeight: '35rem', position: 'relative', cursor: 'pointer' }}
     >
       <img src={image} alt="" className="card-img-top" style={tourImg} />
-      <span className="bg-success text-light fs-10 rounded-bottom-1" style={priceDiv}>
+      <span
+        className="bg-success text-light fs-10 rounded-bottom-1"
+        style={priceDiv}
+      >
         {price}$
       </span>
       <div

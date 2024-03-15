@@ -50,8 +50,8 @@ function Tours() {
         style={{ height: '80vh' }}
       >
         {tours.map((tour, idx) => (
-          <div className="col">
-            <Tour key={idx} {...tour} removeTour={removeTour} />
+          <div className="col" key={idx}>
+            <Tour {...tour} removeTour={removeTour} />
           </div>
         ))}
       </div>
