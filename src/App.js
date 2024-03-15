@@ -3,6 +3,7 @@ import './App.css'
 import Reviews from './3-Review/Reviews'
 import BirthdayCard from './1-BirthdayReminder/BirthdayCard'
 import Tours from './2-Tours/Tours'
+import Menu from './4-RestaurantMenu/Menu'
 
 function App() {
   let App = {
@@ -13,11 +14,13 @@ function App() {
     justifyContent: 'center',
     alignItems: 'center',
   }
+  
   return (
     <div style={App} className="container">
       {/*  <Reviews /> */}
       {/* <BirthdayCard /> */}
-      <Tours/>
+      {/* <Tours/> */}
+      <Menu/>
     </div>
   )
 }

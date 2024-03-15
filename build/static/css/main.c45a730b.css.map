@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/main.c45a730b.css","mappings":"AAAA,EACE,qBACF,CAEA,KAEE,YAAa,CADb,eAAiB,CAEjB,eACF,CACA,eACE,0BACF","sources":["App.css"],"sourcesContent":["* {\n  box-sizing: border-box;\n}\n\nbody {\n  min-width: 100vw ;\n  height: 100vh;\n  overflow: scroll;\n}\n.img-container {\n  box-shadow:  0 0 10px#0c6dfd; \n}"],"names":[],"sourceRoot":""}
