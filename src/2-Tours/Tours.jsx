@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { tours_data } from './tours_data'
+import { tours_data } from './data/tours_data'
 import Loading from '../components/Loading'
 import Tour from './Tour'
 
