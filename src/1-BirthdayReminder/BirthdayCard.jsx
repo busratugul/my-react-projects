@@ -1,6 +1,6 @@
 import React from 'react'
 import Person from './Person'
-import {persons} from './data/persons'
+import {persons} from '../../public/data/persons'
 
 function BirthdayCard() {
   let birthdayDiv = {
