@@ -4,6 +4,7 @@ import Reviews from './3-Review/Reviews'
 import BirthdayCard from './1-BirthdayReminder/BirthdayCard'
 import Tours from './2-Tours/Tours'
 import Menu from './4-RestaurantMenu/Menu'
+import QuestionsApp from './5-Accordion/QuestionsApp'
 
 function App() {
   let App = {
@@ -20,7 +21,8 @@ function App() {
       {/*  <Reviews /> */}
       {/* <BirthdayCard /> */}
       {/* <Tours/> */}
-      <Menu/>
+      {/* <Menu/> */}
+      <QuestionsApp/>
     </div>
   )
 }
