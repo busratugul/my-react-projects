@@ -44,5 +44,11 @@ The simple level projects I made by myself during the process of learning React.
 
 <p align="center"><img src="./src/6-Tabs/tabs.png" alt="Description" style=" object-fit:cover"/></p>
 
+### Project 7 - Slider
+
+[Click here](https://65f60ab09a02ab05651c99ed--timely-cocada-520622.netlify.app/) for the application link.
+
+<p align="center"><img src="./src/7-Slider/slider.png" alt="Description" style=" object-fit:cover"/></p>
+
 
 <p align="center"><b>2024 © Busra Tugul </b></p>
