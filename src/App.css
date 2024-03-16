@@ -22,3 +22,37 @@ main {
 .img-container {
   box-shadow: 0 0 10px#0c6dfd;
 }
+
+.slider {
+  position: absolute;
+  outline: none;
+  border: none;
+  background: transparent;
+  font-size: 2rem;
+  color: #f1aeb5;
+}
+
+.next {
+  right: 0
+}
+
+.prev {
+  left: 0
+}
+
+article {
+  position: absolute;
+  top:30%;
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+article.activeSlide {
+  opacity: 1;
+  transform: translateX(0);
+}
+article.lastSlide {
+  transform: translateX(-100%);
+}
+article.nextSlide {
+  transform: translateX(100%);
+}

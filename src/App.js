@@ -6,6 +6,8 @@ import Tours from './2-Tours/Tours'
 import Menu from './4-RestaurantMenu/Menu'
 import QuestionsApp from './5-Accordion/QuestionsApp'
 import Tabs from './6-Tabs/Tabs'
+import Slider from './7-Slider/Slider'
+
 
 function App() {
   let App = {
@@ -24,7 +26,8 @@ function App() {
       {/* <Tours/> */}
       {/* <Menu/> */}
       {/* <QuestionsApp/> */}
-      <Tabs/>
+      {/* <Tabs/> */}
+      <Slider/>
     </div>
   )
 }
