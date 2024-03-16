@@ -5,6 +5,7 @@ import BirthdayCard from './1-BirthdayReminder/BirthdayCard'
 import Tours from './2-Tours/Tours'
 import Menu from './4-RestaurantMenu/Menu'
 import QuestionsApp from './5-Accordion/QuestionsApp'
+import Tabs from './6-Tabs/Tabs'
 
 function App() {
   let App = {
@@ -22,7 +23,8 @@ function App() {
       {/* <BirthdayCard /> */}
       {/* <Tours/> */}
       {/* <Menu/> */}
-      <QuestionsApp/>
+      {/* <QuestionsApp/> */}
+      <Tabs/>
     </div>
   )
 }
