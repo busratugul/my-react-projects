@@ -32,11 +32,17 @@ The simple level projects I made by myself during the process of learning React.
 
 <p align="center"><img src="./src/4-RestaurantMenu/home.png" alt="Description" style=" object-fit:cover"/><img src="./src/4-RestaurantMenu/filter.png" alt="Description" style=" object-fit:cover"/><img src="./src/4-RestaurantMenu/order.png" alt="Description" style=" object-fit:cover"/></p>
 
-### Project 5 - Accordion 
+### Project 5 - Accordion
 
 [Click here](https://65f4bc67ba03422fb521c279--verdant-axolotl-b6976b.netlify.app/) for the application link.
 
 <p align="center"><img src="./src/5-Accordion/accordion.png" alt="Description" style=" object-fit:cover"/><img src="./src/5-Accordion/acofalse.png" alt="Description" style=" object-fit:cover"/></p>
+
+### Project 6 - Tabs
+
+[Click here](https://65f5abf0cac913bf1e52f719--kaleidoscopic-sfogliatella-cfa122.netlify.app/) for the application link.
+
+<p align="center"><img src="./src/6-Tabs/tabs.png" alt="Description" style=" object-fit:cover"/></p>
 
 
 <p align="center"><b>2024 © Busra Tugul </b></p>
