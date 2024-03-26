@@ -4,7 +4,7 @@ The simple level projects I made by myself during the process of learning React.
 
 ### Libraries/Frameworks I use in my projects
 
-- Boostrap
+- Bootstrap
 - Axios
 - React Icons
 
@@ -50,5 +50,11 @@ The simple level projects I made by myself during the process of learning React.
 
 <p align="center"><img src="./src/7-Slider/slider.png" alt="Description" style=" object-fit:cover"/></p>
 
+### Project 7 - LOREM IPSUM GENERATOR
+
+[Click here](https://busratugul-loremipsum-generator.netlify.app/) for the application link.
+
+<p align="center"><img src="./src/8-Lorem_ipsum/generator.png" alt="Description" style=" object-fit:cover"/></p>
+<p align="center"><img src="./src/8-Lorem_ipsum/paragraph.png" alt="Description" style=" object-fit:cover"/></p>
 
 <p align="center"><b>2024 © Busra Tugul </b></p>

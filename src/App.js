@@ -7,6 +7,7 @@ import Menu from './4-RestaurantMenu/Menu'
 import QuestionsApp from './5-Accordion/QuestionsApp'
 import Tabs from './6-Tabs/Tabs'
 import Slider from './7-Slider/Slider'
+import Lorem from './8-Lorem_ipsum/Lorem'
 
 
 function App() {
@@ -27,7 +28,8 @@ function App() {
       {/* <Menu/> */}
       {/* <QuestionsApp/> */}
       {/* <Tabs/> */}
-      <Slider/>
+      {/* <Slider/> */}
+      <Lorem/>
     </div>
   )
 }
