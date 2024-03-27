@@ -8,6 +8,7 @@ import QuestionsApp from './5-Accordion/QuestionsApp'
 import Tabs from './6-Tabs/Tabs'
 import Slider from './7-Slider/Slider'
 import Lorem from './8-Lorem_ipsum/Lorem'
+import Color from './9-ColorGenerator/Color'
 
 
 function App() {
@@ -29,7 +30,8 @@ function App() {
       {/* <QuestionsApp/> */}
       {/* <Tabs/> */}
       {/* <Slider/> */}
-      <Lorem/>
+      {/* <Lorem/> */}
+      <Color/>
     </div>
   )
 }

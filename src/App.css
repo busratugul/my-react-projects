@@ -33,16 +33,16 @@ main {
 }
 
 .next {
-  right: 0
+  right: 0;
 }
 
 .prev {
-  left: 0
+  left: 0;
 }
 
 article {
   position: absolute;
-  top:30%;
+  top: 30%;
   opacity: 0;
   transition: all 0.3s linear;
 }
@@ -55,4 +55,9 @@ article.lastSlide {
 }
 article.nextSlide {
   transform: translateX(100%);
+}
+
+#inputColor:focus {
+  box-shadow: none;
+  border-color: #ced4da;
 }
