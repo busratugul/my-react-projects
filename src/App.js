@@ -9,6 +9,7 @@ import Tabs from './6-Tabs/Tabs'
 import Slider from './7-Slider/Slider'
 import Lorem from './8-Lorem_ipsum/Lorem'
 import Color from './9-ColorGenerator/Color'
+import GroceryBud from './10-GroceryBud/GroceryBud'
 
 
 function App() {
@@ -31,7 +32,8 @@ function App() {
       {/* <Tabs/> */}
       {/* <Slider/> */}
       {/* <Lorem/> */}
-      <Color/>
+      {/* <Color/> */}
+      <GroceryBud/>
     </div>
   )
 }
